@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-size: 40px;
+        }
+
+        #myId{
+            color: red;
+        }
+
+        .myClass{
+            color: yellow;
+            text-shadow: 1px 0px 1px black;
+        }
+
+        h2{
+            color: blue;
+            
+        }
+
+        li[data="null"]{
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <h2 class="myClass" id="myId" style="color:cyan">Selectors</h2>
+    <ul>
+        <li class="myClass">Universal</li>
+        <li id="myId">Id</li>
+        <li class="myClass">Class</li>
+        <li>Element</li>
+        <li data="null">Attribute</li>
+        <li>Combinators</li>
+        <li>Pseudo Class</li>
+        <li>Pseudo Element</li>
+    </ul>
+    <br>
+    <p style="color: rgb(158, 107, 41);">Selectors are used to select the HTML elements based on their id, class,
+    <p> Priority --> Inline >> Id >> Class >> Element </p>
+</body>
+</html>

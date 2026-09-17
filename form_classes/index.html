@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .body{
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+         input:required {
+            border: 2px solid red;
+        } 
+
+        input:not(:required) {
+            border: 2px solid green;
+            &:hover {
+                border: 2px solid blue;
+                color: blue;
+            }
+
+        }
+        input:in-range{
+            color: green;
+        }
+        input:out-of-range{
+            color: red;
+        }
+        div:has(h1){
+            background-color: lightblue;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+    </style>
+</head>
+<body class="body">
+    <div>
+    <h1>Form Validation</h1>
+    </div>
+    <h2>Required Fields</h2>
+    <form>
+        <input type="text" id="name" placeholder=" FirstName" required>
+        <br><br>
+        <input type="text" id="name" placeholder=" LastName">
+        <br><br>
+        <input type="submit" value="Submit">
+        <br><br>
+        <input type="number" min="1" max="100" placeholder="No." required>
+    </form>
+</body>
+</html>

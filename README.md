@@ -1,7 +1,7 @@
 # Full Stack V Semester
 
-Name       - Yash Upadhyay
-Section    - 3C 
+Name       - Yash Upadhyay  
+Section    - 3C   
 Class Roll - 55
 
 This repository contains my work and practice projects from my 5th semester Full Stack Development course.

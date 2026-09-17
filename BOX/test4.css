@@ -1,0 +1,31 @@
+.box1, .box2, .box3, .box4, .box5{
+    width:500px;
+    height: 240px;
+}
+
+.box1{
+    
+    background-color: red;
+}
+
+.box2{
+    
+    background-color: blue;
+    position:sticky;
+    top: 20px;
+}
+
+.box3{
+    
+    background-color: green;
+}
+
+.box4{
+   
+    background-color: yellow;
+}
+
+.box5{
+    
+    background-color: orange;
+}

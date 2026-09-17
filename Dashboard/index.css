@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+.content{
+    flex:8;
+    
+}
+.cards{
+    flex:1;
+    padding: 2%;
+    border-radius: 5px;
+    box-shadow: 0 0 7px black;
+    margin: 3% 0 3% 0;
+}
+.sidebar{
+    flex:2;
+    height: 100vh;
+    background-color: #378ad2;
+    color:white;
+}
+.content{
+    flex:8;
+}
+.navbar{
+    background-color: #378ad2;
+    padding:3%;
+    margin:0 5px 5px 5px;
+    border-radius: 5px;
+}

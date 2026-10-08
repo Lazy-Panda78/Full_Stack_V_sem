@@ -8,6 +8,8 @@ This repository contains my work and practice projects from my 5th semester Full
 
 I have added different HTML, CSS, and Tailwind CSS projects that I worked on while learning and practicing frontend development.
 
+# The Task Folder Is Added
+
 ## What's Inside
 
 - HTML & CSS practice

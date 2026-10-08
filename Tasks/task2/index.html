@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Product Listing</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo">ShopKart</div>
+        <div class="nav-links">
+            <a img src="C:\Users\NITRO V\OneDrive\Documents\Desktop\full stack 3rd\task2\add-to-cart.png"
+                href="#">Cart</a>
+            <a href="#">User</a>
+        </div>
+    </nav>
+
+    <main class="main-layout">
+
+        <aside class="sidebar">
+            <div class="filter-panel">
+                <h3>Filters</h3>
+
+                <div class="filter-group">
+                    <h4 class="filter-heading">Category</h4>
+                    <label><input type="checkbox"> Laptops</label>
+                    <label><input type="checkbox"> Desktops</label>
+                    <label><input type="checkbox"> Tablets</label>
+                    <label><input type="checkbox"> Accessories</label>
+                </div>
+
+                <div class="filter-group">
+                    <h4 class="filter-heading">Price Range</h4>
+                    <label><input type="checkbox"> ₹0 - ₹25,000</label>
+                    <label><input type="checkbox"> ₹25,000 - ₹50,000</label>
+                    <label><input type="checkbox"> ₹50,000 - ₹75,000</label>
+                    <label><input type="checkbox"> ₹75,000+</label>
+                </div>
+
+                <div class="filter-group">
+                    <h4 class="filter-heading">Brand</h4>
+                    <label><input type="checkbox"> Dell</label>
+                    <label><input type="checkbox"> HP</label>
+                    <label><input type="checkbox"> Lenovo</label>
+                    <label><input type="checkbox"> Apple</label>
+                </div>
+            </div>
+        </aside>
+
+        <div class="products-grid">
+
+            <div class="product-card">
+                <div class="image-container">
+                    <span class="badge sale">SALE</span>
+                    <img src="laptop.jpg" alt="Laptop">
+                </div>
+                <div class="card-body">
+                    <span class="category">Electronics</span>
+                    <h3 class="product-title">Dell Inspiron 15</h3>
+                    <div class="rating">★ 4.5 (1.2k)</div>
+                    <div class="price-area">
+                        <span class="price">₹45,990</span>
+                        <span class="old-price">₹60,990</span>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="image-container">
+                    <span class="badge new">NEW</span>
+                    <img src="laptop.jpg" alt="Laptop">
+                </div>
+                <div class="card-body">
+                    <span class="category">Electronics</span>
+                    <h3 class="product-title">HP Pavilion</h3>
+                    <div class="rating">★ 4.3 (882)</div>
+                    <div class="price-area">
+                        <span class="price">₹52,990</span>
+                        <span class="old-price">₹59,990</span>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="image-container">
+                    <img src="laptop.jpg" alt="Laptop">
+                </div>
+                <div class="card-body">
+                    <span class="category">Electronics</span>
+                    <h3 class="product-title">Lenovo IdeaPad</h3>
+                    <div class="rating">★ 4.2 (854)</div>
+                    <div class="price-area">
+                        <span class="price">₹38,990</span>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="image-container">
+                    <img src="laptop.jpg" alt="Laptop">
+                </div>
+                <div class="card-body">
+                    <span class="category">Electronics</span>
+                    <h3 class="product-title">MacBook Air M2</h3>
+                    <div class="rating">★ 4.8 (1.5k)</div>
+                    <div class="price-area">
+                        <span class="price">₹92,990</span>
+                        <span class="old-price">₹99,990</span>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="image-container">
+                    <span class="badge new">NEW</span>
+                    <img src="laptop.jpg" alt="Laptop">
+                </div>
+                <div class="card-body">
+                    <span class="category">Electronics</span>
+                    <h3 class="product-title">ASUS Vivobook</h3>
+                    <div class="rating">★ 4.4 (731)</div>
+                    <div class="price-area">
+                        <span class="price">₹41,990</span>
+                        <span class="old-price">₹49,990</span>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="image-container">
+                    <img src="laptop.jpg" alt="Laptop">
+                </div>
+                <div class="card-body">
+                    <span class="category">Electronics</span>
+                    <h3 class="product-title">Dell XPS 13</h3>
+                    <div class="rating">★ 4.6 (144)</div>
+                    <div class="price-area">
+                        <span class="price">₹89,990</span>
+                    </div>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+</body>
+
+</html>

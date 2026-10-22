@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Counter</title>
+</head>
+<body>
+
+    <p>
+        <span id="counterValue">0</span> Times Clicked
+    </p>
+
+    <button id="btn">Click This Button!</button>
+
+    <script>
+        let btn = document.getElementById("btn");
+        let counter = document.getElementById("counterValue");
+        let count = 0;
+
+        btn.addEventListener("click", () => {
+            count++;
+            counter.innerHTML = count;
+            console.log("Button Clicked!!");
+        });
+    </script>
+
+</body>
+</html>

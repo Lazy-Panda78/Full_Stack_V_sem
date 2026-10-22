@@ -1,0 +1,45 @@
+ <!-- WAP using setTimeout , setInterval and getElementById to create a timer for 15 min. -->
+
+
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Timer</title>
+</head>
+<body>
+    <h1>Timer</h1>
+    <input type="number" id="minutes" placeholder="Enter minutes">
+    <button onclick="startTimer()">Start</button>
+
+    <h2 id="timer">00:00</h2>
+
+    <script>
+        let time;
+        let timer;
+
+        function startTimer() {
+            time = document.getElementById("minutes").value * 60;
+
+            timer = setInterval(() => {
+                let min = parseInt(time / 60);
+                let sec = time % 60;
+
+                document.getElementById("timer").innerHTML =
+                    min + " : " + (sec < 10 ? "0" : "") + sec;
+
+                if (time == 0) {
+                    clearInterval(timer);
+                    alert("Time Over!");
+                }
+
+                time--;
+            }, 1000);
+
+            setTimeout(() => {
+                clearInterval(timer);
+            }, document.getElementById("minutes").value * 60000);
+        }
+    </script>
+</body>
+</html>

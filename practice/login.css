@@ -1,0 +1,23 @@
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color: #1ca2b1;
+
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    padding: 25px;
+    color: #0f0c0c;
+    border: 1px solid #378ad2;
+    background-color: #328ad6;
+    border-radius: 20px;
+
+
+}
+
+

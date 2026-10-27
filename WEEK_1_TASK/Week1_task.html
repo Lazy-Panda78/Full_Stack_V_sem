@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JS Quiz Arena</title>
+</head>
+<body>
+
+    <h1>JS Quiz Arena</h1>
+
+    <p id="progress">Q: 1/5</p>
+
+    <p>Time: <span id="timer">30</span> seconds</p>
+
+    <p>Score: <span id="score">0</span></p>
+
+    <h2 id="question">Question appears here</h2>
+
+    <button id="option0" onclick="selectOption(0)">Option A</button>
+    <button id="option1" onclick="selectOption(1)">Option B</button>
+    <button id="option2" onclick="selectOption(2)">Option C</button>
+    <button id="option3" onclick="selectOption(3)">Option D</button>
+
+    <p id="explanation"></p>
+
+    <button onclick="nextQuestion()">Next</button>
+    <button onclick="restartQuiz()">Restart</button>
+
+    <script src="Week1_task.js">
+        
+    </script>
+
+</body>
+</html>

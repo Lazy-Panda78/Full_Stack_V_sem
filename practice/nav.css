@@ -1,0 +1,31 @@
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    /* align-items:center; */
+
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    /* gap: 20px; */
+    justify-content: center;
+    padding: 25px;
+    color: #0f0c0c;
+    border: 1px solid #378ad2;
+    background-color: #7eb4e3;
+    border-radius: 20px;
+    height: 4px;
+    width: 100vh;
+}
+
+.container{
+    flex-direction: row;
+    justify-content: right;
+    gap: 20px;
+
+    color: #0f0c0c;
+
+}
+
+

@@ -4,7 +4,9 @@ let answered = false;
 
 let questionElement = document.getElementById("question");
 let progressElement = document.getElementById("progress");
+
 let scoreElement = document.getElementById("score");
+
 let explanationElement = document.getElementById("explanation");
 
 let timerElement = document.getElementById("timer");
